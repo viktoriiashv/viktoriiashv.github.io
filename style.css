@@ -66,7 +66,7 @@ footer a{
   width: 100px;
 }
 main{
-  margin-bottom: 150px;
+  margin-bottom: 30px;
 }
 .special-p{
   word-spacing: 10px;
@@ -84,29 +84,23 @@ b {
   font-family: sans-serif;
 }
 
-.web {
-  height: 100px;
-  border: 1px dashed #996;
-  background-color: #ffc;
-  margin: 0px 10px 0px 10px;
-  text-align: left;
-}
-
-.back {
-  margin: 0px 10px 0px 20px;
+.column {
   float: left;
-  width: 150px;
-  height: 100px;
-  border: 1px dashed #090;
-  background-color: #cfc;
+  width: 24.8%;
+  min-height: 200px;
+  background-color: #2e82c361;
+  border: 1px solid black;
+}
+.row{
+  margin-bottom: 500px;
+  text-align: center;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  clear: both;
 }
 
-.front {
-  margin: 0px 20px 0px 10px;
-  float: right;
-  width: 150px;
-  height: 100px;
-  border: 1px dashed #090;
-  background-color: #cfc;
+.column h3{
+  padding-top: 50px;
 }
-
